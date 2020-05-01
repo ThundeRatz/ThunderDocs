@@ -19,7 +19,7 @@ AUTH_TOKEN_KEY = 'auth_token'
 AUTH_STATE_KEY = 'auth_state'
 
 # Flask app setup
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, template_folder="templates")
 app.secret_key = FLASK_SECRET_KEY
 
 
@@ -34,9 +34,10 @@ def is_logged_in():
 @app.route("/")
 def index():
     if is_logged_in():
-        return "<p>Hello! You're logged in!</p>"
+        return flask.make_response(flask.render_template("index.html"), 200)
+
     else:
-        return '<a class="button" href="/login">Google Login</a>'
+        return flask.make_response(flask.render_template("login.html"), 200)
 
 
 @app.route("/auth")
@@ -61,7 +62,7 @@ def login():
     # scopes that let you retrieve user's profile from Google
     request_uri = oauth_client.prepare_request_uri(
         authorization_endpoint,
-        redirect_uri= flask.request.base_url + "/login/callback",
+        redirect_uri= flask.request.base_url + "/callback",
         scope=["openid", "email", "profile"],
     )
 
