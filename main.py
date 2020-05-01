@@ -117,5 +117,24 @@ def callback():
     return flask.redirect(flask.url_for("index"))
 
 
+@app.route("/<string:project>/<path:file>")
+def load_file(project, file):
+
+    if not is_logged_in():
+        return flask.redirect(flask.url_for("index"))
+
+    ## Check if project exists and if file is valid
+
+    PROJECTS_PATH = "/home/jarvis/www"
+
+    return flask.send_file(PROJECTS_PATH + f"/{project}/{file}")
+
+
+@app.route("/<string:project>/")
+def index_redir(project):
+
+    return load_file(project, "index.html")
+
+
 if __name__ == "__main__":
     app.run(ssl_context="adhoc")
