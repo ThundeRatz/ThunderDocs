@@ -13,7 +13,7 @@ import flask
 from oauthlib.oauth2 import WebApplicationClient
 import requests
 
-from local_settings import GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, FLASK_SECRET_KEY
+from local_settings import GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, FLASK_SECRET_KEY, PROJECTS_PATH
 
 GOOGLE_DISCOVERY_URL = (
     "https://accounts.google.com/.well-known/openid-configuration"
@@ -135,8 +135,6 @@ def load_file(project, file):
         return flask.redirect(flask.url_for("index"))
 
     ## Check if project exists and if file is valid
-
-    PROJECTS_PATH = "/home/jarvis/www"
 
     return flask.send_file(PROJECTS_PATH + f"/{project}/{file}")
 
