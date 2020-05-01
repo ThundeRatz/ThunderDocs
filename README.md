@@ -14,20 +14,18 @@ As páginas do GitHub pages são abertas para todos e não é interessante que q
 
 Pensando nesse problema, criamos um conjunto de configurações para um servidor [nginx](https://www.nginx.com/) com autenticação pelo Google, de modo que qualquer pessoa com email @thunderatz.org é capaz de acessar a página. A autenticação é feita por meio de um app [Flask](https://flask.palletsprojects.com/en/1.1.x/) (framework python) que faz a requisição para o site do Google e faz o gerenciamento da sessão do usuário.
 
- ## Estrutura das requisições
- 
+## Estrutura das requisições
+
  ![requests](./docs/requests.png)
 
 1. Um cliente faz uma requisição para o algum endereço dentro do docs.thudneratz.org
-2. O servidor nginx consulta a aplicação Flask para saber se o cliente está autenticado
-    1. Caso o cliente tenha se autenticado previamente, a aplicação responde prontamente com um [código http](https://http.cat/) 202 (requisição aceita)
-    2. A autenticação é salva nos cookies da sessão do navegador
+2. O servidor nginx repassa a requisição para a aplicação python
 3. Caso o cliente ainda não tenha se autenticado, o usuário é levado à página /login para autenticação com a conta do Google
 4. Caso os dados sejam válidos, o servidor do Google responde com um token de acesso
-5. Uma vez com o token de acesso, a aplicação Flask salva o token nos cookies da sessão e responde o nginx se a operação de autenticação foi bem sucedida
-    1. Qualquer código 2xx será interpretado pelo nginx como autenticação bem sucedida enquanto qualquer código 4xx será interpretado como falha na autenticação
-6. Se a operação foi bem sucedida, o nginx puxa os arquivos na pasta requisitada
-7. O arquivo .html correspondente é carregado
+5. Se a autenticação foi bem sucedida, o python puxa os arquivos na pasta requisitada
+6. O arquivo .html correspondente é carregado
+7. O arquivo é então enviado ao nginx
+   1. Caso o cliente não tenha se autenticado corretamente, o cliente é redirecionado novamente para a página de login
 8. O cliente recebe o arquivo requisitado
 
 Para saber mais sobre autenticação OAuth com nginx, veja [esse link](https://www.nginx.com/blog/validating-oauth-2-0-access-tokens-nginx/) e [essa pergunta](https://stackoverflow.com/questions/55719659/using-flask-login-to-authenticate-nginx-reverse-proxy) no StackOverflow e [essa](https://www.ruby-forum.com/t/is-there-setting-equivalent-to-proxy-set-header-for-uwsgi/210778) no ruby-forum pra saber como redirecionar requisições de autenticação para o Flask.
@@ -53,13 +51,9 @@ sudo systemctl enable trdocs
 
 Para fazer a configuração dos certificados de https, utilizamos o [certbot](https://certbot.eff.org/). Para o novo domínio, precisamos gerar novos certificados. Recomendo seguir o tutorial oficial, que é bem completo e explicado
 
-
 ## Desenvolvimento local
 
 Para desenvolvimento local, é necessário que o servidor local tenha suporte a https. Para fazer essa configuração, recomendo [esse tutorial](https://adrianorosa.com/blog/nginx/configurar-nginx-https-server-com-self-signed-ssl-certificado.html). Vou deixar como referência também [esse guia](https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https) com o passo a passo desde o desenvolvimento local até o deploy
-
-No nosso servidor, os certificados https já estão configurados corretamente
-
 
 ## ToDo
 

@@ -17,7 +17,7 @@
    id="svg6984"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="requests.svg"
-   inkscape:export-filename="/home/felipe/Documentos/DeployDox/docs/requests.png"
+   inkscape:export-filename="/home/felipe/Documentos/DeployDox/local_server/docs/requests.png"
    inkscape:export-xdpi="120"
    inkscape:export-ydpi="120">
   <defs
@@ -768,8 +768,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="482.18534"
-     inkscape:cy="424.12877"
+     inkscape:cx="763.61391"
+     inkscape:cy="412.7002"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -793,7 +793,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -804,15 +804,15 @@
      transform="translate(130.73755,-3.3990448)">
     <g
        id="g4275"
-       transform="translate(991.94604,-77.753717)">
+       transform="translate(988.54425,71.168902)">
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g282"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g284"
            clip-path="url(#clipPath288)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="M 3292.71,3587.01 H 1194.83 v 551.13 H 3292.71 Z M 3125.27,3346.99 H 1347.41 v 168.9 h 1777.86 z m 167.44,-622.25 H 1194.83 v 551.14 H 3292.71 Z M 3125.27,2484.73 H 1347.41 v 168.9 h 1777.86 z m 167.44,-622.25 H 1194.83 v 551.14 h 2097.88 z m 35.56,2346.78 H 1159.28 c -19.66,0 -35.56,-15.91 -35.56,-35.56 v -622.25 c 0,-19.66 15.9,-35.56 35.56,-35.56 h 117.02 v -168.9 h -117.02 c -19.66,0 -35.56,-15.9 -35.56,-35.55 v -622.26 c 0,-19.65 15.9,-35.55 35.56,-35.55 h 117.02 v -168.9 h -117.02 c -19.66,0 -35.56,-15.9 -35.56,-35.56 v -622.25 c 0,-19.65 15.9,-35.55 35.56,-35.55 h 117.02 v -204.46 c 0,-19.65 15.9,-35.55 35.55,-35.55 19.66,0 35.56,15.9 35.56,35.55 v 204.46 h 1777.86 v -204.46 c 0,-19.65 15.9,-35.55 35.56,-35.55 19.65,0 35.55,15.9 35.55,35.55 v 204.46 h 131.89 c 19.65,0 35.55,15.9 35.55,35.55 v 622.25 c 0,19.66 -15.9,35.56 -35.55,35.56 h -131.89 v 168.9 h 131.89 c 19.65,0 35.55,15.9 35.55,35.55 v 622.26 c 0,19.65 -15.9,35.55 -35.55,35.55 h -131.89 v 168.9 h 131.89 c 19.65,0 35.55,15.9 35.55,35.56 v 622.25 c 0,19.65 -15.9,35.56 -35.55,35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -823,11 +823,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g298"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g300"
            clip-path="url(#clipPath304)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2943.04,3964.8 c 56.36,0 102.23,-45.87 102.23,-102.23 0,-56.35 -45.87,-102.22 -102.23,-102.22 -56.36,0 -102.23,45.87 -102.23,102.22 0,56.36 45.87,102.23 102.23,102.23 z m 0,-275.57 c 95.59,0 173.34,77.75 173.34,173.34 0,95.6 -77.75,173.34 -173.34,173.34 -95.59,0 -173.34,-77.74 -173.34,-173.34 0,-95.59 77.75,-173.34 173.34,-173.34"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -838,11 +838,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g314"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g316"
            clip-path="url(#clipPath320)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1405.19,3689.23 c 19.65,0 35.56,15.91 35.56,35.56 v 231.12 c 0,19.66 -15.91,35.56 -35.56,35.56 -19.65,0 -35.56,-15.9 -35.56,-35.56 v -231.12 c 0,-19.65 15.91,-35.56 35.56,-35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -853,11 +853,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g330"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g332"
            clip-path="url(#clipPath336)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1577.07,3689.23 c 19.66,0 35.56,15.91 35.56,35.56 v 231.12 c 0,19.66 -15.9,35.56 -35.56,35.56 -19.65,0 -35.55,-15.9 -35.55,-35.56 v -231.12 c 0,-19.65 15.9,-35.56 35.55,-35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -868,11 +868,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g346"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g348"
            clip-path="url(#clipPath352)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1748.92,3689.23 c 19.66,0 35.56,15.91 35.56,35.56 v 231.12 c 0,19.66 -15.9,35.56 -35.56,35.56 -19.65,0 -35.56,-15.9 -35.56,-35.56 v -231.12 c 0,-19.65 15.91,-35.56 35.56,-35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -883,11 +883,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g362"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g364"
            clip-path="url(#clipPath368)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1920.77,3689.23 c 19.65,0 35.56,15.91 35.56,35.56 v 231.12 c 0,19.66 -15.91,35.56 -35.56,35.56 -19.65,0 -35.56,-15.9 -35.56,-35.56 v -231.12 c 0,-19.65 15.91,-35.56 35.56,-35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -898,11 +898,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g378"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g380"
            clip-path="url(#clipPath384)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2092.65,3689.23 c 19.66,0 35.56,15.91 35.56,35.56 v 231.12 c 0,19.66 -15.9,35.56 -35.56,35.56 -19.65,0 -35.55,-15.9 -35.55,-35.56 v -231.12 c 0,-19.65 15.9,-35.56 35.55,-35.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -913,11 +913,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g394"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g396"
            clip-path="url(#clipPath400)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2354.13,3878.13 h -115.56 v -115.56 h 115.56 v 115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -928,11 +928,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g410"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g412"
            clip-path="url(#clipPath416)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="M 2516.36,3878.13 H 2400.8 v -115.56 h 115.56 v 115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -943,11 +943,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g426"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g428"
            clip-path="url(#clipPath432)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2678.59,3878.13 h -115.56 v -115.56 h 115.56 v 115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -958,11 +958,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g442"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g444"
            clip-path="url(#clipPath448)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2943.04,2898.09 c -56.36,0 -102.23,45.87 -102.23,102.22 0,56.36 45.87,102.23 102.23,102.23 56.36,0 102.23,-45.87 102.23,-102.23 0,-56.35 -45.87,-102.22 -102.23,-102.22 z m 0,275.56 c -95.59,0 -173.34,-77.74 -173.34,-173.34 0,-95.59 77.75,-173.34 173.34,-173.34 95.59,0 173.34,77.75 173.34,173.34 0,95.6 -77.75,173.34 -173.34,173.34"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -973,11 +973,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g458"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g460"
            clip-path="url(#clipPath464)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1405.19,3129.2 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.12 c 0,-19.66 15.91,-35.56 35.56,-35.56 19.65,0 35.56,15.9 35.56,35.56 v 231.12 c 0,19.65 -15.91,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -988,11 +988,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g474"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g476"
            clip-path="url(#clipPath480)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1577.07,3129.2 c -19.65,0 -35.55,-15.9 -35.55,-35.55 v -231.12 c 0,-19.66 15.9,-35.56 35.55,-35.56 19.66,0 35.56,15.9 35.56,35.56 v 231.12 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1003,11 +1003,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g490"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g492"
            clip-path="url(#clipPath496)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1748.92,3129.2 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.12 c 0,-19.66 15.91,-35.56 35.56,-35.56 19.66,0 35.56,15.9 35.56,35.56 v 231.12 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1018,11 +1018,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g506"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g508"
            clip-path="url(#clipPath512)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1920.77,3129.2 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.12 c 0,-19.66 15.91,-35.56 35.56,-35.56 19.65,0 35.56,15.9 35.56,35.56 v 231.12 c 0,19.65 -15.91,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1033,11 +1033,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g522"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g524"
            clip-path="url(#clipPath528)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2092.65,3129.2 c -19.65,0 -35.55,-15.9 -35.55,-35.55 v -231.12 c 0,-19.66 15.9,-35.56 35.55,-35.56 19.66,0 35.56,15.9 35.56,35.56 v 231.12 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1048,11 +1048,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g538"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g540"
            clip-path="url(#clipPath544)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2238.57,2900.31 h 115.56 v 115.56 h -115.56 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1063,11 +1063,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g554"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g556"
            clip-path="url(#clipPath560)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2400.8,2900.31 h 115.56 v 115.56 H 2400.8 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1078,11 +1078,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g570"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g572"
            clip-path="url(#clipPath576)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2563.03,2900.31 h 115.56 v 115.56 h -115.56 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1093,11 +1093,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g586"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g588"
            clip-path="url(#clipPath592)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2943.04,2035.82 c -56.36,0 -102.23,45.87 -102.23,102.23 0,56.35 45.87,102.23 102.23,102.23 56.36,0 102.23,-45.88 102.23,-102.23 0,-56.36 -45.87,-102.23 -102.23,-102.23 z m 0,275.57 c -95.59,0 -173.34,-77.75 -173.34,-173.34 0,-95.59 77.75,-173.34 173.34,-173.34 95.59,0 173.34,77.75 173.34,173.34 0,95.59 -77.75,173.34 -173.34,173.34"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1108,11 +1108,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g602"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g604"
            clip-path="url(#clipPath608)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1405.19,2266.94 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.13 c 0,-19.65 15.91,-35.55 35.56,-35.55 19.65,0 35.56,15.9 35.56,35.55 v 231.13 c 0,19.65 -15.91,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1123,11 +1123,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g618"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g620"
            clip-path="url(#clipPath624)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1577.07,2266.94 c -19.65,0 -35.55,-15.9 -35.55,-35.55 v -231.13 c 0,-19.65 15.9,-35.55 35.55,-35.55 19.66,0 35.56,15.9 35.56,35.55 v 231.13 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1138,11 +1138,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g634"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g636"
            clip-path="url(#clipPath640)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1748.92,2266.94 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.13 c 0,-19.65 15.91,-35.55 35.56,-35.55 19.66,0 35.56,15.9 35.56,35.55 v 231.13 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1153,11 +1153,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g650"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g652"
            clip-path="url(#clipPath656)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 1920.77,2266.94 c -19.65,0 -35.56,-15.9 -35.56,-35.55 v -231.13 c 0,-19.65 15.91,-35.55 35.56,-35.55 19.65,0 35.56,15.9 35.56,35.55 v 231.13 c 0,19.65 -15.91,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1168,11 +1168,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g666"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g668"
            clip-path="url(#clipPath672)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2092.65,2266.94 c -19.65,0 -35.55,-15.9 -35.55,-35.55 v -231.13 c 0,-19.65 15.9,-35.55 35.55,-35.55 19.66,0 35.56,15.9 35.56,35.55 v 231.13 c 0,19.65 -15.9,35.55 -35.56,35.55"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1183,11 +1183,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g682"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g684"
            clip-path="url(#clipPath688)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2238.57,2038.04 h 115.56 v 115.56 h -115.56 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1198,11 +1198,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g698"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g700"
            clip-path="url(#clipPath704)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2400.8,2038.04 h 115.56 V 2153.6 H 2400.8 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1213,11 +1213,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g714"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g716"
            clip-path="url(#clipPath720)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 2563.03,2038.04 h 115.56 v 115.56 h -115.56 v -115.56"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1228,11 +1228,11 @@
       <g
          transform="matrix(0.03527778,0,0,-0.03527778,-785.67235,229.64611)"
          id="g730"
-         style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+         style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
         <g
            id="g732"
            clip-path="url(#clipPath736)"
-           style="stroke:none;stroke-opacity:1;fill:#000047;fill-opacity:1">
+           style="fill:#000047;fill-opacity:1;stroke:none;stroke-opacity:1">
           <path
              d="m 3018.6,1635.81 c 0,19.65 -15.9,35.55 -35.56,35.55 H 1471.86 c -19.65,0 -35.56,-15.9 -35.56,-35.55 0,-19.66 15.91,-35.57 35.56,-35.57 h 1511.18 c 19.66,0 35.56,15.91 35.56,35.57"
              style="fill:#000047;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
@@ -1355,7 +1355,7 @@
          style="fill:none;stroke:#000000;stroke-width:0.99246311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-79-8-2)" />
     </g>
     <g
-       transform="translate(184.57268,-152.979)"
+       transform="translate(181.17089,-4.056381)"
        id="g8493-3-5">
       <path
          sodipodi:nodetypes="cc"
@@ -1402,7 +1402,7 @@
        xml:space="preserve"
        id="flowRoot9472-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.2095455,0,0,0.2095455,76.996381,13.772028)"><flowRegion
+       transform="matrix(0.2095455,0,0,0.2095455,73.594595,162.69465)"><flowRegion
          id="flowRegion9474-3"><rect
            id="rect9476-0"
            width="525.31006"
@@ -1410,11 +1410,11 @@
            x="408.10162"
            y="37.655933" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code'"
-         id="flowPara9480-2">6. /project</flowPara></flowRoot>    <flowRoot
+         id="flowPara9480-2">5. /project</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9472-67"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.2095455,0,0,0.2095455,-14.62505,107.66128)"><flowRegion
+       transform="matrix(0.2095455,0,0,0.2095455,-19.160764,105.7714)"><flowRegion
          id="flowRegion9474-0"
          style="fill:#000000"><rect
            id="rect9476-8"
@@ -1426,7 +1426,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000"
          id="flowPara10317">2. GET </flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000"
-         id="flowPara10321">/auth</flowPara></flowRoot>    <flowRoot
+         id="flowPara10321">/project</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9472-67-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -1438,7 +1438,7 @@
            x="408.10162"
            y="37.655933" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code'"
-         id="flowPara9480-1-6">2. OAuth2 request</flowPara></flowRoot>    <flowRoot
+         id="flowPara9480-1-6">3. OAuth2 request</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9472-67-9-4"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -1464,13 +1464,13 @@
            y="37.655933"
            style="fill:#000000" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000"
-         id="flowPara9480-1-7">5. 202 (Accepted) or</flowPara><flowPara
+         id="flowPara9634">7. /index.html or</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000"
-         id="flowPara9634">   401 (Unauthorized)</flowPara></flowRoot>    <flowRoot
+         id="flowPara1326">/project/index.html</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9472-9-0"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.2095455,0,0,0.2095455,76.307482,59.129168)"><flowRegion
+       transform="matrix(0.2095455,0,0,0.2095455,72.905696,208.05179)"><flowRegion
          id="flowRegion9474-3-6"><rect
            id="rect9476-0-2"
            width="525.31006"
@@ -1478,7 +1478,7 @@
            x="408.10162"
            y="37.655933" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code'"
-         id="flowPara9480-2-8">7. /index.html</flowPara></flowRoot>    <flowRoot
+         id="flowPara9480-2-8">6. /index.html</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9472-9-0-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -1492,7 +1492,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code'"
          id="flowPara9480-2-8-2">8. /index.html</flowPara></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 64.676142,3.9819041 64.298166,245.88667"
+       d="M 62.559474,3.9819041 62.181498,245.88667"
        id="path10315"
        inkscape:connector-curvature="0" />
   </g>
