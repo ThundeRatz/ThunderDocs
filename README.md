@@ -14,6 +14,22 @@ As páginas do GitHub pages são abertas para todos e não é interessante que q
 
 Pensando nesse problema, criamos um conjunto de configurações para um servidor [nginx](https://www.nginx.com/) com autenticação pelo Google, de modo que qualquer pessoa com email @thunderatz.org é capaz de acessar a página. A autenticação é feita por meio de um app [Flask](https://flask.palletsprojects.com/en/1.1.x/) (framework python) que faz a requisição para o site do Google e faz o gerenciamento da sessão do usuário.
 
+## Estrutura dos projetos
+
+Para o carregamento automático da documentação de um projeto, é necessário que:
+
+- O projeto possua um Doxyfile na raiz
+- A criação de arquivos html esteja habilitada no Doxyfile
+- A documentação seja gerada na pasta docs/Doxygen
+- O projeto seja adicionado no arquivo projects.json
+
+### Sintaxe do json
+
+- name - Nome do projeto, que será mostrado na página principal
+- slug - Nome somente com letras minúsculas, utilizado nas pastas e caminhos
+- git - Endereço do repositório do projeto
+- branch - Branch cuja documentação será mostrada
+
 ## Estrutura das requisições
 
  ![requests](./docs/requests.png)
@@ -57,4 +73,5 @@ Para desenvolvimento local, é necessário que o servidor local tenha suporte a 
 
 ## ToDo
 
+- Automatizar atualização da documentação quando so projetos recebem novos commits
 - Templates html mais bonitos
