@@ -24,6 +24,11 @@ server {
 		uwsgi_pass unix:/home/jarvis/python-auth/trdocs.sock;
 	}
 
+	location /static/ {
+		root /home/jarvis/python-auth;
+		try_files $uri $uri/ =404;
+	}
+
 	location /thundervolt {
 		auth_request /auth;
 		root /home/jarvis/www;
