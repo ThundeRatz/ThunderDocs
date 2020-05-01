@@ -1,3 +1,45 @@
+/* LOGIN FORM */
+
+body.index {
+    background: #f8f8f8;
+}
+
+.index #header {
+    height: auto;
+    padding: 5px 16px;
+}
+
+.index #header h1 {
+    font-size: 18px;
+}
+
+.index #header h1 a {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.index #content {
+    padding: 20px 20px 0;
+}
+
+.index #container {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 28em;
+    min-width: 300px;
+    margin: 100px auto;
+}
+
+.index #content-main {
+    width: 100%;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #161843;
+}
+
 .btn-project {
     background: #161843;
     color: white !important;
