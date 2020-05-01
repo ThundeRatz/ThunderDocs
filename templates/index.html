@@ -27,12 +27,8 @@
     <!-- Header -->
     <div id="header">
         <div id="branding">
-
             <h1 id="site-name"><a href="/">ThunderDocs</a></h1>
-
         </div>
-
-
     </div>
     <!-- END Header -->
 
@@ -44,8 +40,13 @@
 
                 <div class="text-center w-100">
                     <p><strong>Projetos</strong></p>
-{#                    {% for project in projects %}#}
-                    <a class="btn btn-project" href="/thundervolt">ThunderVolt</a>
+                        <ul class="btn-list">
+                            {% for project in projects %}
+                            <li>
+                                <a class="btn btn-project" href="/{{ project.slug }}">{{ project.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
                 </div>
 
         </div>

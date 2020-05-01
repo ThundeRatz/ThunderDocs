@@ -45,3 +45,16 @@ body.index {
     color: white !important;
     font: 'Roboto';
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-list li {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    list-style-type: none
+}
