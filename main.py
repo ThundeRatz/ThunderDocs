@@ -18,6 +18,8 @@ GOOGLE_DISCOVERY_URL = (
 AUTH_TOKEN_KEY = 'auth_token'
 AUTH_STATE_KEY = 'auth_state'
 
+ORGANIZATION_DOMAIN = "thunderatz.org"
+
 # Flask app setup
 app = flask.Flask(__name__, template_folder="templates")
 app.secret_key = FLASK_SECRET_KEY
@@ -110,7 +112,12 @@ def callback():
     # The user authenticated with Google, authorized your
     # app, and now you've verified their email through Google!
     if userinfo_response.json().get("email_verified"):
-        flask.session[AUTH_TOKEN_KEY] = True
+        users_email = userinfo_response.json()["email"]
+        if users_email.split("@")[-1] == ORGANIZATION_DOMAIN:
+            flask.session[AUTH_TOKEN_KEY] = True
+        else:
+            return "User email must be from ThundeRatz organization", 401
+
     else:
         return "User email not available or not verified by Google.", 400
 
