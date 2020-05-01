@@ -58,5 +58,3 @@ Para desenvolvimento local, é necessário que o servidor local tenha suporte a 
 ## ToDo
 
 - Templates html mais bonitos
-- Carregamento dinâmico dos projetos disponíveis
-- Servir arquivos estáticos redirecionando a partir do python
