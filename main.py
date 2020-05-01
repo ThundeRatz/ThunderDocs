@@ -1,3 +1,7 @@
+#!/env/bin/python3
+
+# Ref: https://realpython.com/flask-google-login/
+
 # Python standard libraries
 import json
 import os
