@@ -1,0 +1,45 @@
+##
+# Configuration file for Doxigen site
+##
+
+# Default server configuration
+#
+server {
+#	listen 80 default_server;
+#	listen [::]:80 default_server;
+
+	# Ad-hoc https certificates
+	listen 443 ssl;
+	ssl_certificate     /usr/local/nginx/ssl/cert.crt;
+	ssl_certificate_key /usr/local/nginx/ssl/cert.key;
+	ssl_protocols       SSLv3 TLSv1 TLSv1.1 TLSv1.2;
+	ssl_ciphers         HIGH:!aNULL:!MD5;
+
+	index index.html;
+
+	server_name localserver.com;
+
+	location / {
+		include uwsgi_params;
+		uwsgi_pass unix:/home/jarvis/python-auth/trdocs.sock;
+	}
+
+	location /thundervolt {
+		auth_request /auth;
+		root /home/jarvis/www;
+		try_files $uri $uri/ =404;
+	}
+
+	location = /auth {
+		internal;
+		include uwsgi_params;
+		uwsgi_pass unix:/home/jarvis/python-auth/trdocs.sock;
+		uwsgi_pass_request_body off;
+		uwsgi_param Content-Length "";
+		uwsgi_param X-Original-URI $request_uri;
+	}
+
+}
+
+
+
