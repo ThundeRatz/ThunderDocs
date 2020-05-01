@@ -25,7 +25,7 @@ AUTH_STATE_KEY = 'auth_state'
 ORGANIZATION_DOMAIN = "thunderatz.org"
 
 # Flask app setup
-app = flask.Flask(__name__, template_folder="templates")
+app = flask.Flask(__name__, template_folder="templates", static_folder="static")
 app.secret_key = FLASK_SECRET_KEY
 
 
@@ -137,6 +137,11 @@ def load_file(project, file):
         return flask.redirect(flask.url_for("index"))
 
     ## Check if project exists and if file is valid
+    if not project in VALID_PROJECTS:
+        return "O projeto requisitado não existe!", 404
+
+    if not os.path.exists(PROJECTS_PATH + f"/{project}/{file}"):
+        return "O arquivo requisitado não existe!", 404
 
     return flask.send_file(PROJECTS_PATH + f"/{project}/{file}")
 
