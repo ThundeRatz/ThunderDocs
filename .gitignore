@@ -134,3 +134,6 @@ dmypy.json
 
 # Linux trash folder
 .Trash-1000/
+
+# Local files
+local/
