@@ -41,7 +41,7 @@ Para fazer o deploy da aplicação Flask, é necessário configurar o [uWSGI](ht
 O arquivo trdocs.service deve ser copiado para a pasta /etc/systemd/system/
 
 ```bash
-sudo cp ./trdocs.service /etc/systemd/system/trdocs.service
+sudo cp ./config/trdocs.service /etc/systemd/system/trdocs.service
 ```
 
 Para iniciar o serviço, digite
@@ -51,7 +51,7 @@ sudo systemctl start trdocs
 sudo systemctl enable trdocs
 ```
 
-Para fazer a configuração dos certificados de https, utilizamos o [certbot](https://certbot.eff.org/). Para o novo domínio, precisamos gerar novos certificados. REcomendo seguir o tutorial oficial, que é bem completo e explicado
+Para fazer a configuração dos certificados de https, utilizamos o [certbot](https://certbot.eff.org/). Para o novo domínio, precisamos gerar novos certificados. Recomendo seguir o tutorial oficial, que é bem completo e explicado
 
 
 ## Desenvolvimento local
@@ -61,3 +61,8 @@ Para desenvolvimento local, é necessário que o servidor local tenha suporte a 
 No nosso servidor, os certificados https já estão configurados corretamente
 
 
+## ToDo
+
+- Templates html mais bonitos
+- Carregamento dinâmico dos projetos disponíveis
+- Servir arquivos estáticos redirecionando a partir do python
