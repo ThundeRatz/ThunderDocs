@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ThunderVolt",
+        "slug": "thundervolt",
+        "git": "https://github.com/ThundeRatz/vss_thundervolt",
+        "branch": "style"
+    },
+    {
+        "name": "ThunderTrekking",
+        "slug": "trekking",
+        "git": "https://github.com/ThundeRatz/ThunderTrekking",
+        "branch": "develop"
+    }
+]

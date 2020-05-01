@@ -32,6 +32,8 @@ app.secret_key = FLASK_SECRET_KEY
 # OAuth 2 client setup
 oauth_client = WebApplicationClient(GOOGLE_CLIENT_ID)
 
+PROJECTS = json.load(open("projects.json", "r"))
+VALID_PROJECTS = [proj['slug'] for proj in PROJECTS]
 
 def is_logged_in():
     return True if AUTH_TOKEN_KEY in flask.session else False
@@ -40,7 +42,7 @@ def is_logged_in():
 @app.route("/")
 def index():
     if is_logged_in():
-        return flask.make_response(flask.render_template("index.html"), 200)
+        return flask.make_response(flask.render_template("index.html", projects=PROJECTS), 200)
 
     else:
         return flask.make_response(flask.render_template("login.html"), 200)
