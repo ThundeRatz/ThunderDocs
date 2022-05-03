@@ -140,10 +140,10 @@ def load_file(project, file):
     if not project in VALID_PROJECTS:
         return "O projeto requisitado não existe!", 404
 
-    if not os.path.exists(PROJECTS_PATH + f"/{project}/{file}"):
+    if not os.path.exists(safe_join(PROJECTS_PATH, project,file)):
         return "O arquivo requisitado não existe!", 404
 
-    return flask.send_file(PROJECTS_PATH + f"/{project}/{file}")
+    return flask.send_file(safe_join(PROJECTS_PATH, project,file))
 
 
 @app.route("/<string:project>/")
