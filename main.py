@@ -9,7 +9,7 @@ import sqlite3
 
 # Third-party libraries
 import flask
-
+from werkzeug.utils import safe_join
 from oauthlib.oauth2 import WebApplicationClient
 import requests
 
